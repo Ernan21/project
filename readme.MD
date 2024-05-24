@@ -1,15 +1,9 @@
 # Manual de Instalação
 
-## Sumário
-- [Programas Necessários](#programas-necessarios)
-- [Baixando o Projeto](#baixando-o-projeto)
-- [Testes de Funcionamento](#testes-de-funcionamento)
-
-## Programas Necessários
 ### Programas necessários para o funcionamento do projeto
-- [Visual Studio Code](#vscode)
-- [Java Development Kit](#jdk)
-- [DBeaver](#dbeaver)
+- [Visual Studio Code]
+- [Java Development Kit]
+- [DBeaver]
 
 ### Visual Studio Code
 #### Passos para instalar o **Visual Studio Code**
