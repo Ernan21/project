@@ -134,7 +134,7 @@
                     <span class="img_container">
                         <img src="IMG/docs_dbeaver/console.png" alt="database_login.png">
                     </span>
-                    <li>Se voce receber um resultado igual o da imagem abaixo e esta tudo nos conformes</li>
+                    <li>Se voce receber um resultado igual o da imagem abaixo, então esta tudo nos conformes</li>
                     <span class="img_container">
                         <img src="IMG/docs_dbeaver/result.png" alt="result.png">
                     </span>
