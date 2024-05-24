@@ -50,21 +50,17 @@
                         <img src="IMG/docs_vscode/alert_msg.png" alt="alert_msg.png">
                     </span>
                     <p>basta clicar em continuar</p>
-                    
                     <span class="img_container">
                         <img src="IMG/docs_vscode/question_open_vscode.png" alt="question_open_vscode">
                     </span>
                     <p>abra com o Visual studio code</p>
-                    
                     <span class="img_container">
                         <img src="IMG/docs_vscode/step 9.png" alt="step9">
                     </span>
                     <li>agora é só clicar em <b>install</b> e aguardar</li>
                 </ul>
             </fieldset>
-
             <br>
-
             <fieldset class="installer" id="JDK">
                 <legend>Java Developement Kit</legend>
                 <ul>
@@ -98,9 +94,7 @@
                     </span>
                 </ul>
             </fieldset>
-
             <br>
-
             <fieldset class="installer" id="DBEAVER">
                 <legend>DBeaver Community</legend>
                 <ul>
@@ -146,7 +140,6 @@
                     </span>
                 </ul>
             </fieldset>
-            
         </div>
         <div id="stating_project">
             stating_project ...
