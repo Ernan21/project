@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manual de instalação</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-    <body>
-		<div id="update" onclick="updating()"></div>
-        <header>
-            <ul>
-                <li> <a href="#progran_require">Programas necessarios</a></li>
-                <li> <a href="#">Baixando o projeto</a></li>
-                <li> <a href="#">Testes de funcionamento</a></li>
-            </ul>
-        </header>
-        
+<body>
         <div id="progran_require">
             <fieldset>
                 <legend>Programas necessarios para o funcionamendo do projeto</legend>
@@ -25,7 +8,7 @@
                     <li><a href="#DBEAVER">DBeaver</a></li>
                 </ul>
             </fieldset>
-        
+        </div>
             <fieldset class="installer" id="VSCODE">
                 <legend>Visual Studio Code</legend>
                 <p>Passos para instalar o <b>Visual Studio Code</b></p>
@@ -180,4 +163,3 @@
             </ul>
         </div>
     </body>
-</html>
