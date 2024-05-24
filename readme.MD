@@ -1,158 +1,122 @@
-<body>
-        <div id="progran_require">
-            <fieldset>
-                <legend>Programas necessarios para o funcionamendo do projeto</legend>
-                <ul>
-                    <li><a href="#VSCODE">Visual Studio Code</a></li>
-                    <li><a href="#JDK">Java Developement Kit</a></li>
-                    <li><a href="#DBEAVER">DBeaver</a></li>
-                </ul>
-            </fieldset>
-        </div>
-            <fieldset class="installer" id="VSCODE">
-                <legend>Visual Studio Code</legend>
-                <p>Passos para instalar o <b>Visual Studio Code</b></p>
-                <ul>
-                    <li>Primeiro passo baixe o instalador do <a href="https://code.visualstudio.com/Download">Visual Studio Code</a> no seguinte link "<em>https://code.visualstudio.com/Download</em>"</li>
-                    <li>Abra o arquivo que você acabou de baixar</li>
-                    <li>Aceite o <b>acordo de licença</b> e Clique em <b>Próximo</b> </li>
-                    <br>
-                    <span class="img_container">
-                        <img class="steps_vscode" src="IMG/docs_vscode/step 1.png" alt="step1">
-                    </span>
-                    <br>
-                    <li>Clique em <b>Proxímo</b> e logo após clique em <b>instalar</b></li>
-                    <br>
-                    <span class="img_container">
-                        <img class="steps_vscode" src="IMG/docs_vscode/step 2.png" alt="step2">
-                    </span>
-                    <br>
-                    <br>
-                    <span class="img_container">
-                        <img class="steps_vscode" src="IMG/docs_vscode/step 3.png" alt="step3">
-                    </span>
-                    <br>
-                    <li>Por fim só clique em <b>Concluir</b></li>
-                    <br>
-                    <span class="img_container">
-                        <img class="steps_vscode" src="IMG/docs_vscode/step 4.png" alt="step4">
-                    </span>
-                    <br>
-					<li>Esta é a tela inicial do Visual Studio Code.</li>
-                    <span class="img_container">
-                        <img class="steps_vscode" src="IMG/docs_vscode/step 5.png" alt="step5">
-                    </span>
-					<br>
-					<li>Agora vamos baixar as <a href="https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack">extensões</a> do java para o Visual Studio Code.</li>
-                        <p>Ultilize o link "<em>https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack</em>" para o site com o pack de extensões</p>
-                    <li>clique em <img src="IMG/docs_vscode/btn_install.png" alt="btn_install">. se a segunite mensagem aparecer</li>
-                    <span class="img_container">
-                        <img src="IMG/docs_vscode/alert_msg.png" alt="alert_msg.png">
-                    </span>
-                    <p>basta clicar em continuar</p>
-                    <span class="img_container">
-                        <img src="IMG/docs_vscode/question_open_vscode.png" alt="question_open_vscode">
-                    </span>
-                    <p>abra com o Visual studio code</p>
-                    <span class="img_container">
-                        <img src="IMG/docs_vscode/step 9.png" alt="step9">
-                    </span>
-                    <li>agora é só clicar em <b>install</b> e aguardar</li>
-                </ul>
-            </fieldset>
-            <br>
-            <fieldset class="installer" id="JDK">
-                <legend>Java Developement Kit</legend>
-                <ul>
-                    <p>Passos para instalar o <b>Java Developement Kit</b></p>
-                    <li>Primeiro passo baixe o instalador do <a href="https://www.oracle.com/br/java/technologies/downloads/#jdk22-windows">Java Developement Kit</a> no seginte link "<em>https://www.oracle.com/br/java/technologies/downloads/#jdk22-windows</em>"</li>
-                    <span class="img_container">
-                        <img src="IMG/docs_JDK/version_jdk.png" alt="version_jdk.png">
-                    </span>
-                    <p>Ultilize a versão installer para os proximos passos</p>
-                    <li>Vá clicando em <b>Next</b> até que a instalação se inicie</li>
-                    <br>
-                    <span class="img_container">
-                        <img class="steps_jdk" src="IMG/docs_JDK/step1.png" alt="step1">
-                    </span>
-                    <br>
-                    <span class="img_container">
-                        <img class="steps_jdk" src="IMG/docs_JDK/step2.png" alt="step2">
-                    </span>
-                    <br>
-                    <li>Clique em <b>Close</b> para finalizar a instalação</li>
-                    <br>
-                    <span class="img_container">
-                        <img class="steps_jdk" src="IMG/docs_JDK/step3.png" alt="step3">
-                    </span>
-                    <br>
-                    <b>Agora vamos verificar se a instalação foi efetuada com sucesso</b>
-                    <li>Abra o Prompt de comando e coloque o seguinte codigo <code class="cmd">java --version</code> se a seguinte tela aparece seguinifica que o java foi instalado corretamente</li>
-                    <br>
-                    <span class="img_container">
-                        <img class="steps_jdk" src="IMG/docs_JDK/step4.png" alt="step4">
-                    </span>
-                </ul>
-            </fieldset>
-            <br>
-            <fieldset class="installer" id="DBEAVER">
-                <legend>DBeaver Community</legend>
-                <ul>
-                    <p>Passos para instalar o <b>DBeaver Community</b></p>
-                    <mark>Para este projeto vamos ultiliza o DBeaver para manipular o banco de dados</mark>
-                    <li>Vamos baixar a versão portátil do <a href="https://dbeaver.io/download/">DBeaver</a> no seguinte link "<em>https://dbeaver.io/download/</em>"</li>
-                    <li>No site do DBeaver você vai clicar em <img src="IMG/docs_dbeaver/windows_zip_btn.png" alt="windos.zip"> para fazer um download do portátil.</li>
-                    <li>Quando o download concluir, localize o diretorio do arquivo e extraia ele.</li>
-                    <span class="img_container">
-                        <img src="IMG/docs_dbeaver/unzip file.png" alt="unzip file.png">
-                    </span>
-                    <li>Abra a pasta que você acabou de extrair e localize pelo arquivo dbeaver e abra-o</li>
-                    <span class="img_container">
-                        <img src="IMG/docs_dbeaver/dbeaver.exe.png" alt="unzip file.png">
-                    </span>
-                    <li>Clique em não</li>
-                    <span class="img_container">
-                        <img src="IMG/docs_dbeaver/step2.png" alt="unzip file.png">
-                    </span>
-                    <li>Clique em Postgres e clique em Avancar</li>
-                    <span class="img_container">
-                        <img src="IMG/docs_dbeaver/step3.png" alt="unzip file.png">
-                    </span>
-                    <li>Ulitlize os dados abaixos para preencher os campos de conexão e depois clique em concluir</li>
-                    <p>host: aws-0-sa-east-1.pooler.supabase.com</p>
-                    <p>banco: postgres</p>
-                    <p>usuario: postgres.gwciqljtnkhyojnomxbm</p>
-                    <p>senha: )?)PRzkRi~7KxKs</p>
-                    <span class="img_container">
-                        <img src="IMG/docs_dbeaver/database_login.png" alt="database_login.png">
-                    </span>
-                    <li>Faça o downloads de todos requisitos</li>
-                    <span class="img_container">
-                        <img src="IMG/docs_dbeaver/donwload_requisitos.png" alt="database_login.png">
-                    </span>
-                    <li>Agora vamos fazer um teste, abra um novo console e digite <code>SELECT 1+1</code> e depois execute-o clicando em <img src="IMG/docs_dbeaver/execute_img.png" alt="execute_img"></li>
-                    <span class="img_container">
-                        <img src="IMG/docs_dbeaver/console.png" alt="database_login.png">
-                    </span>
-                    <li>Se voce receber um resultado igual o da imagem abaixo, então esta tudo nos conformes</li>
-                    <span class="img_container">
-                        <img src="IMG/docs_dbeaver/result.png" alt="result.png">
-                    </span>
-                </ul>
-            </fieldset>
-        </div>
-        <div id="stating_project">
-            stating_project ...
-        </div>
-        <div id="test_function">
-            test_function ...
-        </div>
-        <div hidden>
-            <ul>
-                <li>arquivo .proprierts que formata locais de usabilidade do scopo</li>
-                <li>repositore onde pode ser alterado caminho do projeto fazendo com que seja renderizando outra tela</li>
-                <li>alteração no html</li>
-                <li>Mudança de scopo de busca em java e javascript</li>
-            </ul>
-        </div>
-    </body>
+# Manual de Instalação
+
+## Sumário
+- [Programas Necessários](#programas-necessarios)
+- [Baixando o Projeto](#baixando-o-projeto)
+- [Testes de Funcionamento](#testes-de-funcionamento)
+
+## Programas Necessários
+### Programas necessários para o funcionamento do projeto
+- [Visual Studio Code](#vscode)
+- [Java Development Kit](#jdk)
+- [DBeaver](#dbeaver)
+
+### Visual Studio Code
+#### Passos para instalar o **Visual Studio Code**
+1. Primeiro passo, baixe o instalador do [Visual Studio Code](https://code.visualstudio.com/Download) no seguinte link "<em>https://code.visualstudio.com/Download</em>"
+2. Abra o arquivo que você acabou de baixar
+3. Aceite o **acordo de licença** e clique em **Próximo**
+
+    ![step1](IMG/docs_vscode/step%201.png)
+
+4. Clique em **Próximo** e logo após clique em **Instalar**
+
+    ![step2](IMG/docs_vscode/step%202.png)
+
+    ![step3](IMG/docs_vscode/step%203.png)
+
+5. Por fim, só clique em **Concluir**
+
+    ![step4](IMG/docs_vscode/step%204.png)
+
+6. Esta é a tela inicial do Visual Studio Code.
+
+    ![step5](IMG/docs_vscode/step%205.png)
+
+7. Agora, vamos baixar as [extensões](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) do Java para o Visual Studio Code. Utilize o link "<em>https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack</em>" para o site com o pack de extensões
+8. Clique em ![btn_install](IMG/docs_vscode/btn_install.png). Se a seguinte mensagem aparecer:
+
+    ![alert_msg](IMG/docs_vscode/alert_msg.png)
+
+    Basta clicar em continuar.
+
+    ![question_open_vscode](IMG/docs_vscode/question_open_vscode.png)
+
+    Abra com o Visual Studio Code.
+
+    ![step9](IMG/docs_vscode/step%209.png)
+
+9. Agora é só clicar em **Install** e aguardar.
+
+### Java Development Kit
+#### Passos para instalar o **Java Development Kit**
+1. Primeiro passo, baixe o instalador do [Java Development Kit](https://www.oracle.com/br/java/technologies/downloads/#jdk22-windows) no seguinte link "<em>https://www.oracle.com/br/java/technologies/downloads/#jdk22-windows</em>"
+
+    ![version_jdk](IMG/docs_JDK/version_jdk.png)
+
+    Utilize a versão installer para os próximos passos.
+2. Vá clicando em **Next** até que a instalação se inicie
+
+    ![step1](IMG/docs_JDK/step1.png)
+
+    ![step2](IMG/docs_JDK/step2.png)
+
+3. Clique em **Close** para finalizar a instalação
+
+    ![step3](IMG/docs_JDK/step3.png)
+
+#### Verificação da instalação
+4. Abra o Prompt de comando e coloque o seguinte código `java --version`. Se a seguinte tela aparecer, significa que o Java foi instalado corretamente
+
+    ![step4](IMG/docs_JDK/step4.png)
+
+### DBeaver Community
+#### Passos para instalar o **DBeaver Community**
+> Para este projeto, vamos utilizar o DBeaver para manipular o banco de dados.
+
+1. Vamos baixar a versão portátil do [DBeaver](https://dbeaver.io/download/) no seguinte link "<em>https://dbeaver.io/download/</em>"
+2. No site do DBeaver, clique em ![windows_zip_btn](IMG/docs_dbeaver/windows_zip_btn.png) para fazer o download do portátil.
+3. Quando o download concluir, localize o diretório do arquivo e extraia-o.
+
+    ![unzip file](IMG/docs_dbeaver/unzip%20file.png)
+
+4. Abra a pasta que você acabou de extrair e localize o arquivo dbeaver e abra-o
+
+    ![dbeaver.exe](IMG/docs_dbeaver/dbeaver.exe.png)
+
+5. Clique em não
+
+    ![step2](IMG/docs_dbeaver/step2.png)
+
+6. Clique em Postgres e clique em Avançar
+
+    ![step3](IMG/docs_dbeaver/step3.png)
+
+7. Utilize os dados abaixo para preencher os campos de conexão e depois clique em concluir
+    - **host:** aws-0-sa-east-1.pooler.supabase.com
+    - **banco:** postgres
+    - **usuário:** postgres.gwciqljtnkhyojnomxbm
+    - **senha:** )?)PRzkRi~7KxKs
+
+    ![database_login](IMG/docs_dbeaver/database_login.png)
+
+8. Faça o download de todos os requisitos
+
+    ![donwload_requisitos](IMG/docs_dbeaver/donwload_requisitos.png)
+
+#### Teste de Conexão
+9. Agora, vamos fazer um teste. Abra um novo console e digite `SELECT 1+1` e depois execute-o clicando em ![execute_img](IMG/docs_dbeaver/execute_img.png)
+
+    ![console](IMG/docs_dbeaver/console.png)
+
+10. Se você receber um resultado igual ao da imagem abaixo, está tudo nos conformes
+
+    ![result](IMG/docs_dbeaver/result.png)
+
+---
+
+### Informações Adicionais
+- Arquivo `.properties` que formata locais de usabilidade do escopo
+- Repositório onde pode ser alterado o caminho do projeto, fazendo com que seja renderizada outra tela
+- Alteração no HTML
+- Mudança de escopo de busca em Java e JavaScript
