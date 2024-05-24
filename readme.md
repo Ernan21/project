@@ -1,3 +1,47 @@
+<style>
+    *{font-size: 20px;}
+    #update{
+        position: fixed;
+        background: skyblue;
+        color: black;
+        bottom: 10px;
+        left: 50%;
+    }
+    #update:hover{cursor: pointer;}
+        
+    ul{
+        list-style: decimal;
+    }
+    fieldset{
+        border: 1px solid black;
+        border-radius: .3em;
+        margin-bottom: 20px;
+    }
+    legend{
+        padding: 0px 5px;
+        border: 1px solid black;
+    }
+    
+    .cmd{
+        background-color: black;
+        color: white;
+        padding: 0px 10px;
+    }
+    
+    .installer{
+        border: 1px solid black;
+        border-radius: .3em;
+        padding: 0px 10px;
+    }
+    
+    .img_container{
+        display: block;
+        text-align: center;
+    }
+    .img_container img{
+        width: 500px;
+    }
+</style>
 <body>
         <div id="progran_require">
             <fieldset>
